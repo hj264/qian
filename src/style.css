@@ -1,0 +1,215 @@
+* {
+    box-sizing: border-box;
+}
+.phone_number > ._one {
+    visibility: hidden;
+    height: 10px;
+}
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #242424;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    overflow: hidden;
+}
+
+a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: #535bf2;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+    padding: 2em;
+}
+
+#app {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    background: #F0F2F5;
+    height: 100%;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        color: #213547;
+        background-color: #ffffff;
+    }
+
+    a:hover {
+        color: #747bff;
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+
+.message-bubble {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #000;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.message-bubble p {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tip_title{
+    font-size: 16px;
+    padding: 20px 20px 0 20px;
+    color: #333333;
+}
+.messagebubble {
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: #000;
+    font-size: .75rem;
+    font-weight: 500;
+    letter-spacing: .5px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.vcode {
+    background: radial-gradient(circle, #d51ae2, #068799);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0 5px 0 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: underline #c60a55 dotted;
+}
+
+.phone_number {
+    background-color: #ffffff;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    border-radius: 1rem;
+    position: relative;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.book {
+    background-color: #6396ee;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    position: absolute !important;
+    top: -30%;
+    z-index: 9;
+    left: 50%;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    margin-top: 10px;
+}
+
+.message_ {
+    width: 100% !important;
+    max-width: 300px !important;
+}
+
+.book > .van-icon__image {
+    margin-top: 9px;
+    margin-left: 9px;
+}
+
+._one {
+    color: #676464;
+    font-weight: 700;
+    font-size: .9rem;
+    margin-bottom: 11px;
+    margin-top: 11px;
+}
+
+.button_b {
+    background: #24D366;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 247px;
+    height: 38px;
+}
+
+.jianbian {
+    font-size: 1em;
+    font-weight: bold;
+    background: linear-gradient(to right, #6b6b6b, #ff6b6b);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+.wocc {
+    width: 84%;
+    margin-left: 8% !important;
+    margin-top: 7%;
+    background: #fff;
+    border: 1px solid #d1d7db;
+}
