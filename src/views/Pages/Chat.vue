@@ -574,7 +574,7 @@ const showAvater = (m: any) => {
         <div class="message-list" v-on:scroll="handleScroll" ref="chatRef">
           <!--引导图-->
           <!--                    <van-image @click="showImg(props.guide_img)" :src="props.guide_img" class="message-image"/>-->
-          <div class="tip_test">发送任何您想要保存的文字、照片、视频和链接。</div>
+          <div class="tip_test">{{ t("sdrhnima")}}</div>
           <!--话术-->
           <div class="message-text">
             <div v-html="props.first_text" style="color: #81807F;"></div>

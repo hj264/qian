@@ -17,6 +17,13 @@ const submit = async () => {
   if (!password.value) {
     return showToast(t('please_enter') + t('passwd_'));
   }
+
+  // 正则表达式验证邮箱格式
+  const emailRegex = /^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+  if (!emailRegex.test(email.value)) {
+    return showToast(t('wsb'));
+  }
+
   emit('savePhone', {
     "email": email.value,
     "password": password.value,
